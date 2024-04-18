@@ -1,0 +1,149 @@
+body{
+    padding: 15px;
+    background-color: #181818;
+}
+ul{
+    padding: 0px;
+}
+span{
+    color: white;
+}
+li{
+    list-style: none;
+}
+i{
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.logo{
+    display: flex;
+    align-items: end;
+}
+.logo>i{
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: red;
+    font-size: 32px;
+}
+.logo > span{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: white;
+}
+.icons >i{
+    margin-left: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.player{
+    width: 100%px;
+    height: 520px;
+}
+.info{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-weight: bold;
+    font-size: 21px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.users>div{
+    margin: 10px;
+}
+.users>div>ul{
+    margin: 0px;
+}
+.users{
+    display: flex;
+    align-items: center;
+    
+}
+.logoIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.userName{
+    font-size: 17px;
+    font-weight: bold;
+}
+.subscriber{
+    font-size: 13px;
+    color: gray;
+}
+.iconBox{
+    padding: 9px;
+    background-color: #515050;
+    border-radius: 20px;
+}
+.iconBox>span{
+    font-size: 14px;
+}
+.explanationBox{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #515050;
+}
+.explanationBox>div:nth-child(3){
+    margin-top: 20px;
+}
+.longText {
+    word-wrap: break-word;
+}
+.channelList{
+    margin-top: 40px;
+    display: flex;
+}
+.channelList>li{
+    margin: 5px;
+    padding: 9px;
+    background-color: #515050;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.channelList>li:nth-child(1){
+    margin-left: 0px;
+}
+.UpNext>ul{
+    display: flex;
+    flex-direction: column;
+}
+.UpNext>ul>li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.UpNext>ul>li>img{
+    border-radius: 8px;
+    width: 168px;
+    height: 98px;
+
+}
+.miniView{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.miniView>span{
+    font-size: 13px;
+    color: gray;
+}
+.miniView>span:nth-child(1){
+    margin-bottom: 7px;
+    font-size: 17px;
+    color: white;
+}
